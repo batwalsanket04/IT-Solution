@@ -1,0 +1,232 @@
+ .navbar-brand{
+    font-size: 50px;
+      color: white;
+      font-weight: 600;
+      /* font-family: Arial, Helvetica, sans-serif;
+     */
+
+ }
+ .navbar-toggler-icon{
+        color:white;
+        /* border:2px solid white; */
+        
+ }
+ 
+ 
+ .nav-item{
+    ul{
+        
+    }
+    a{
+      font-size: larger;
+      color: white;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 0px;
+      align-items: center;
+     
+    }
+ 
+    }
+
+    
+
+ 
+ header{
+    background-color:linear-gradiant ;
+     /* background: linear-gradient(to top,  rgb(3, 3, 122),rgb(0, 0, 125),rgb(0, 0, 100)); */
+
+ }
+  
+    
+     .contain{
+    /* background: linear-gradient(170deg, #0a0c3d, #160b60, #2a2f91); */
+    background-image: url(asset/hero-bg.png);
+    
+    background-size: cover;
+    height: 1200px;
+
+     
+
+     
+    }
+
+        
+    .col-md-6{
+        h1{
+            color: white;
+            font-size: 45px;
+        }
+        p{
+            color: rgb(218, 218, 218);
+        }
+    }
+
+        /* header content  */
+        .header-content{
+            padding:0px 45px 0px 45px;
+        }
+
+
+
+
+
+
+    /* services section hover */
+
+
+    .service_container{
+        background-color: #001f3f;
+        
+    }
+
+     
+
+    .card:hover{
+        
+         transition: duration 400ms;
+         
+               transition: all 0.2s ease-in;
+               transform:scale3d(1.4);
+                background-color: 
+              rgba(200, 197, 197, 0.259);
+            
+
+        .card{
+          
+              /* transition:transform 4s ease; */
+              
+        }
+    }
+
+    /* scrolling smooth */
+     
+    html{
+        scroll-behavior: smooth;
+    }
+
+
+    .about_heading{
+       margin-top: 100px;
+        
+       height: 900px;
+     h2{
+        
+     }
+    
+
+
+    }
+    /* why us box styling */
+    .why_container{
+        .detail-box{
+            
+            h5{
+                font-style: bold; 
+            font-weight: 700;
+        
+      
+        }
+        }
+    }
+
+    /* customer styling */
+    .carausal-wrap{
+        .box{
+            text-align: center;
+            width: 600px;
+            img{
+                width: 20%;
+            }
+        }
+    }
+
+    /* carausal last */
+    .carausal-item{
+        .col-md-6{
+            img{
+                width: 20%;
+            }
+        }
+    }
+    .heading_container{
+        h2{
+            text-align: center;
+            margin-top: 100px;
+        }
+    }
+
+    /* info section */
+.footer_section{
+   
+     background-color: #001f3f;
+     height: 300px;
+
+     h5{
+        color: white;
+        padding: 10px;
+
+     }
+    a{
+        color: white;
+    }
+  
+    .contact-info{
+        margin-top: 20px;
+        text-align: justify;
+       
+    }
+     
+}
+
+#sanket{
+    animation: ijk 3s ease-in-out 3s infinite;
+    transition: 400ms;
+}
+@keyframes ijk{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform:translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+
+#mayur{
+    animation: xyz 3s ease-in-out 3s infinite;
+    transition: 400ms;
+}
+
+@keyframes xyz{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform:translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+#vardh{
+    animation: pqr 3s ease-in-out 3s infinite;
+    transition: 400ms;
+}
+
+@keyframes pqr{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform:translateY(-40px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
